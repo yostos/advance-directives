@@ -1,0 +1,21 @@
+extends: default
+font:
+  catalog:
+    merge: true
+    NotoSansJP:
+      normal: GEM_FONTS_DIR/NotoSansJP-Regular.ttf
+      italic: GEM_FONTS_DIR/NotoSansJP-Medium.ttf
+      bold: GEM_FONTS_DIR/NotoSansJP-Bold.ttf
+      bold_italic: GEM_FONTS_DIR/NotoSansJP-ExtraBold.ttf
+    IBMPlexSansJP:
+      normal: GEM_FONTS_DIR/IBMPlexSansJP-Regular.ttf
+      italic: GEM_FONTS_DIR/IBMPlexSansJP-Medium.ttf
+      bold: GEM_FONTS_DIR/IBMPlexSansJP-Bold.ttf
+      bold_italic: GEM_FONTS_DIR/IBMPlexSansJP-SemiBold.ttf
+    M+ 1p Fallback: GEM_FONTS_DIR/mplus1p-regular-fallback.ttf
+    Noto Emoji: GEM_FONTS_DIR/notoemoji-subset.ttf
+  fallbacks: [M+ 1p Fallback, Noto Emoji]
+base:
+  font_family: NotoSansJP
+conum:
+  font_family: IBMPlexSansJP

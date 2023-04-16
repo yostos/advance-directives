@@ -1,0 +1,48 @@
+= 事前指示書のリポジトリ
+
+== About
+
+事前指示書を作成するためのリポジトリです。
+
+AsciiDocで記述された事前指示書からHTML/PDFファイルを作成できます。
+
+
+== Prerequisite
+
+ファイル生成のために、以下のソフトウェアを使用します。 +
+事前にダウンロードし、コマンドを実行できることを確認してください。
+
+* GnuPG
+* Asciidoctor-pdf
+
+
+
+== Usage
+
+
+PDFファイルを生成。
+
+[source,bash]
+----
+$ make pdf
+>> Cleanup all PDF.
+>> Convert succeeded!
+>> Converted files are following.
+----
+
+
+== コマンド一覧
+
+全てのワークフローは `make` コマンド経由で実行します。 +
+実行可能なコマンドの一覧は `make help` で参照可能です。
+
+[source,bash]
+----
+$ make help
+clean           生成したHTML/PDFを全て削除する。
+pdf             PDFを生成する。
+html            HTMLを生成する。
+sign            ソースと生成結果に署名ファイルを作成する
+verify          署名を検証する
+help            ヘルプを出力する。
+----
