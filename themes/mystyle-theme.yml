@@ -2,11 +2,11 @@ extends: default
 font:
   catalog:
     merge: true
-    NotoSansJP:
-      normal: GEM_FONTS_DIR/NotoSansJP-Regular.ttf
-      italic: GEM_FONTS_DIR/NotoSansJP-Medium.ttf
-      bold: GEM_FONTS_DIR/NotoSansJP-Bold.ttf
-      bold_italic: GEM_FONTS_DIR/NotoSansJP-ExtraBold.ttf
+    SarasaMonoJP:
+      normal: sarasa-mono-j-regular.ttf
+      italic: sarasa-mono-j-italic.ttf
+      bold: sarasa-mono-j-bold.ttf
+      bold_italic: sarasa-mono-j-bolditalic.ttf
     IBMPlexSansJP:
       normal: GEM_FONTS_DIR/IBMPlexSansJP-Regular.ttf
       italic: GEM_FONTS_DIR/IBMPlexSansJP-Medium.ttf
@@ -16,6 +16,6 @@ font:
     Noto Emoji: GEM_FONTS_DIR/notoemoji-subset.ttf
   fallbacks: [M+ 1p Fallback, Noto Emoji]
 base:
-  font_family: NotoSansJP
+  font_family: SarasaMonoJP
 conum:
-  font_family: IBMPlexSansJP
+  font_family: SarasaMonoJP
