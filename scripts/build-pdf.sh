@@ -13,6 +13,7 @@ asciidoctor-pdf \
   -a pdf-theme=mystyle-theme.yml \
   -a pdf-themesdir=${CURRENT_PATH}/themes \
   -a pdf-fontsdir=${CURRENT_PATH}/fonts \
+  -r asciidoctor-diagram \
   docs/${SOURCE_FILENAME}.adoc \
   -o ${TARGET_PATH}/${SOURCE_FILENAME}.pdf
 

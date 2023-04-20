@@ -8,9 +8,7 @@ mkdir -p ${TARGET_PATH}
 
 echo ">> Converting AsciiDoc to HTML..."
 
-asciidoctor docs/${SOURCE_FILENAME}.adoc -o ${TARGET_PATH}/${SOURCE_FILENAME}.html
-mkdir -p ${TARGET_PATH}/images
-cp docs/images/* ${TARGET_PATH}/images/
+asciidoctor docs/${SOURCE_FILENAME}.adoc -r asciidoctor-diagram -o ${TARGET_PATH}/${SOURCE_FILENAME}.html
 
 echo ">> Convert succeeded!"
 echo ">> Converted files are following."
