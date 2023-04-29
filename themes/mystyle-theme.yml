@@ -7,11 +7,6 @@ font:
       italic: sarasa-mono-j-italic.ttf
       bold: sarasa-mono-j-bold.ttf
       bold_italic: sarasa-mono-j-bolditalic.ttf
-    IBMPlexSansJP:
-      normal: GEM_FONTS_DIR/IBMPlexSansJP-Regular.ttf
-      italic: GEM_FONTS_DIR/IBMPlexSansJP-Medium.ttf
-      bold: GEM_FONTS_DIR/IBMPlexSansJP-Bold.ttf
-      bold_italic: GEM_FONTS_DIR/IBMPlexSansJP-SemiBold.ttf
     M+ 1p Fallback: GEM_FONTS_DIR/mplus1p-regular-fallback.ttf
     Noto Emoji: GEM_FONTS_DIR/notoemoji-subset.ttf
   fallbacks: [M+ 1p Fallback, Noto Emoji]
