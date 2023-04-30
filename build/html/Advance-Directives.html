@@ -673,10 +673,10 @@ pre.rouge .ss {
 <p>なお、ここで言う家族とは、妻、および息子のみを指します。</p>
 </div>
 <div class="paragraph">
-<p>世の中には「故人が浮かばれないので・・・」という表現で自分のエゴ(自分自身の信条や宗教、常識、世間体など)を他人に押し付けてくる人間がいます。少なくとも、私の死にまつわるイベントは家族の気持ちと私の希望以外を考慮する必要はない。血縁を含めた第三者についてはすべての口出しは無用で遠慮いただきたいので、私からと添えてこう伝えてください。</p>
+<p>残念なことに世の中には「故人が浮かばれないので・・・」という表現で自分のエゴ(自分自身の信条や宗教、常識、世間体など)を他人に押し付けてくる人間がいる。こういう人間は自分が正しいと思っているから悪意なく自分の言い分を押し付けてくる。少なくとも、私の死にまつわるイベントは第一に私の家族のものであり、家族と私の希望以外を考慮する必要はない。口出ししてくる血縁を含めた第三者については、私からと添えて以下のように伝えて遠慮してもらってかわわない。</p>
 </div>
 <div class="paragraph">
-<p>「呪います」</p>
+<p>「お前の事を呪うぞ」</p>
 </div>
 <div class="sect2">
 <h3 id="_葬儀の希望">3.1. 葬儀の希望</h3>
@@ -837,16 +837,24 @@ Last Change:2023-04-25 21:27:02.<br>
 <li>
 <p>asciidoctor-diagram</p>
 </li>
+<li>
+<p>graphviz</p>
+</li>
+<li>
+<p>plantuml</p>
+</li>
 </ul>
 </div>
 <div class="paragraph">
-<p>上記のソフトウェアはそれぞれ依存するソフトウェアがありますが、
-以下のコマンドで環境が整うはずです。</p>
+<p>上記のソフトウェアはそれぞれ依存するソフトウェアがありますが、以下のコマンドで環境が整うはずです。
+plantUMLはJavaに依存しているので Macの場合はJavaの実行環境を整備する必要があります。</p>
 </div>
 <div class="listingblock">
 <div class="title">生成環境の整え方</div>
 <div class="content">
-<pre class="rouge highlight"><code data-lang="sh"><span class="nv">$ </span>gem <span class="nb">install </span>asciidoctor
+<pre class="rouge highlight"><code data-lang="sh"><span class="nv">$ </span>brew <span class="nb">install </span>graphviz
+<span class="nv">$ </span>brew <span class="nb">install </span>planuml
+<span class="nv">$ </span>gem <span class="nb">install </span>asciidoctor
 <span class="nv">$ </span>gem <span class="nb">install </span>asciidoctor-pdf
 <span class="nv">$ </span>gem <span class="nb">install </span>asciidoctor-pdf-cjk
 <span class="nv">$ </span>gem <span class="nb">install </span>asciidoctor-rouge
@@ -905,7 +913,7 @@ GnuPGとは「Gnu Privacy Guard」または「GPG」とも呼ばれる。公開�
 <div id="footer">
 <div id="footer-text">
 Revision 0.1.1<br>
-Last updated 2023-04-29 22:35:00 +0900
+Last updated 2023-04-30 10:10:54 +0900
 </div>
 </div>
 </body>
